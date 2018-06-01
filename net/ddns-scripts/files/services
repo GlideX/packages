@@ -108,7 +108,7 @@
 
 "dynv6.com"		"http://dynv6.com/api/update?hostname=[DOMAIN]&token=[PASSWORD]&ipv4=[IP]"	"updated|unchanged"
 
-"easydns.com"		"http://[USERNAME]:[PASSWORD]@api.cp.easydns.com/dyn/generic.php?hostname=[DOMAIN]&myip=[IP]"	"NOERROR"
+"easydns.com"		"http://[USERNAME]:[PASSWORD]@api.cp.easydns.com/dyn/generic.php?hostname=[DOMAIN]&myip=[IP]"	"OK|NOERROR"
 
 "editdns.net"		"http://dyndns-free.editdns.net/api/dynLinux.php?p=[PASSWORD]&r=[DOMAIN]"
 
@@ -136,7 +136,7 @@
 
 "no-ip.pl"		"http://[USERNAME]:[PASSWORD]@update.no-ip.pl/?hostname=[DOMAIN]"
 
-"now-dns.com"		"http://[USERNAME]:[PASSWORD]@now-dns.com/update?hostname=[DOMAIN]"
+"now-dns.com"		"https://[USERNAME]:[PASSWORD]@now-dns.com/update?hostname=[DOMAIN]"	"good|nochg"
 
 "nsupdate.info"		"http://[USERNAME]:[PASSWORD]@ipv4.nsupdate.info/nic/update?hostname=[DOMAIN]&myip=[IP]"	"good|nochg"
 
