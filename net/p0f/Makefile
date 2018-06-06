@@ -40,6 +40,7 @@ TARGET_CFLAGS += -ggdb3
 define Package/p0f/install
 	$(INSTALL_DIR) $(1)/usr/sbin/
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/p0f $(1)/usr/sbin/
+	$(INSTALL_BIN) $(PKG_BUILD_DIR)/p0f-client $(1)/usr/sbin/
 	$(INSTALL_DIR) $(1)/etc/p0f
 	$(CP) $(PKG_BUILD_DIR)/p0f.fp $(1)/etc/p0f/
 endef
